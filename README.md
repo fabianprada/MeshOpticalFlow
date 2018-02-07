@@ -27,7 +27,7 @@ OpticalFlow.exe --mesh mesh.ply --in A.png B.png
 
 Add the parameter --out result.ply (for the first case) or --out result.png (for the later) to run the application in default configuration and skip the user interface.
 
-For an explanatory video on the usage of the interface please visit,
+For an explanatory video on the interface usage please visit,
 
 http://www.cs.jhu.edu/~fpradan1/code/
 
