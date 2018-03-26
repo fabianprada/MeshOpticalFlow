@@ -2101,7 +2101,6 @@ int WhitneyFlowViewer< Real, Channels>::Init(){
 			inputAdvectedTexture[s] = new Point3D<Real>[sv.textureWidth * sv.textureHeight];
 			inputTexture[s] = new Point3D<Real>[sv.textureWidth * sv.textureHeight];
 			for (int j = 0; j < sv.textureHeight; j++) for (int i = 0; i < sv.textureWidth; i++) inputTexture[s][j*sv.textureWidth + i] = inputAdvectedTexture[s][j*sv.textureWidth + i] = Point3D<Real>(inputTextureData.textures[s][3 * ((sv.textureHeight - j - 1)*sv.textureWidth + i)], inputTextureData.textures[s][3 * ((sv.textureHeight - j - 1)*sv.textureWidth + i) + 1], inputTextureData.textures[s][3 * ((sv.textureHeight - j - 1)*sv.textureWidth + i) + 2]);
-			for (int i = 0; i < sv.textureWidth*sv.textureHeight; i++) inputAdvectedTexture[s][i] = Point3D<Real>(0, 0, 0);
 		}
 		for (int i = 0; i < sv.textureWidth * sv.textureHeight; i++)for (int c = 0; c < 3; c++)  sv.texture[3 * i + c] = static_cast<unsigned char>(inputTexture[signalSource][i][c]);
 	}
