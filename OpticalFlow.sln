@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleTextureToVertices", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpticalFlow", "OpticalFlow\OpticalFlow.vcxproj", "{5DAE3D09-960D-478F-ABB1-91FDD734F7DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spectrum", "Spectrum\Spectrum.vcxproj", "{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -41,6 +43,18 @@ Global
 		{5DAE3D09-960D-478F-ABB1-91FDD734F7DC}.Release|Win32.Build.0 = Release|Win32
 		{5DAE3D09-960D-478F-ABB1-91FDD734F7DC}.Release|x64.ActiveCfg = Release|x64
 		{5DAE3D09-960D-478F-ABB1-91FDD734F7DC}.Release|x64.Build.0 = Release|x64
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Debug|Win32.Build.0 = Debug|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Debug|x64.ActiveCfg = Debug|x64
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Debug|x64.Build.0 = Debug|x64
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Release|Win32.ActiveCfg = Release|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Release|Win32.Build.0 = Release|Win32
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Release|x64.ActiveCfg = Release|x64
+		{FD3B3B2B-3863-4B3D-BBFD-2AAF5835F7C0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

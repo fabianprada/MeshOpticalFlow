@@ -149,9 +149,6 @@
   <ItemGroup>
     <ClCompile Include="OpticalFlow.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="SurfaceVisualization.inl" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
