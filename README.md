@@ -8,6 +8,9 @@ and photometric tracking in:
 
 https://dl.acm.org/citation.cfm?id=3073679
 
+For an introduction to Optical Flow principles and mesh-based discretization take a look at:
+
+http://www.cs.jhu.edu/~fpradan1/publications/OpticalFlow/OpticalFlow.pptx
 
 If you have Intel MKL installed in your machine uncomment the  the line "#define EIGEN_USE_MKL_ALL" in OpticalFlow.cpp to accelerate the Cholesky factorization routines.
  
